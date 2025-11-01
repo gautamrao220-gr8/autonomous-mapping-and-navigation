@@ -1,0 +1,42 @@
+[1.276s] Invoking command in '/home/bgr/bgr_ws/src/mogi_trajectory_server-main': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bgr/bgr_ws/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bgr/bgr_ws/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mogi_trajectory_server build --build-base /home/bgr/bgr_ws/build/mogi_trajectory_server/build install --record /home/bgr/bgr_ws/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data
+[1.582s] running egg_info
+[1.583s] creating ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info
+[1.603s] writing ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/PKG-INFO
+[1.603s] writing dependency_links to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/dependency_links.txt
+[1.603s] writing entry points to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/entry_points.txt
+[1.604s] writing requirements to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/requires.txt
+[1.604s] writing top-level names to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/top_level.txt
+[1.604s] writing manifest file '../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/SOURCES.txt'
+[1.644s] reading manifest file '../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/SOURCES.txt'
+[1.644s] adding license file 'LICENSE'
+[1.645s] writing manifest file '../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/SOURCES.txt'
+[1.645s] running build
+[1.645s] running build_py
+[1.645s] creating /home/bgr/bgr_ws/build/mogi_trajectory_server/build
+[1.645s] creating /home/bgr/bgr_ws/build/mogi_trajectory_server/build/lib
+[1.645s] creating /home/bgr/bgr_ws/build/mogi_trajectory_server/build/lib/mogi_trajectory_server
+[1.645s] copying mogi_trajectory_server/trajectory_topic_based.py -> /home/bgr/bgr_ws/build/mogi_trajectory_server/build/lib/mogi_trajectory_server
+[1.645s] copying mogi_trajectory_server/trajectory.py -> /home/bgr/bgr_ws/build/mogi_trajectory_server/build/lib/mogi_trajectory_server
+[1.645s] copying mogi_trajectory_server/__init__.py -> /home/bgr/bgr_ws/build/mogi_trajectory_server/build/lib/mogi_trajectory_server
+[1.645s] running install
+[1.654s] running install_lib
+[1.674s] creating /home/bgr/bgr_ws/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server
+[1.674s] copying /home/bgr/bgr_ws/build/mogi_trajectory_server/build/lib/mogi_trajectory_server/trajectory_topic_based.py -> /home/bgr/bgr_ws/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server
+[1.674s] copying /home/bgr/bgr_ws/build/mogi_trajectory_server/build/lib/mogi_trajectory_server/trajectory.py -> /home/bgr/bgr_ws/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server
+[1.674s] copying /home/bgr/bgr_ws/build/mogi_trajectory_server/build/lib/mogi_trajectory_server/__init__.py -> /home/bgr/bgr_ws/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server
+[1.675s] byte-compiling /home/bgr/bgr_ws/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server/trajectory_topic_based.py to trajectory_topic_based.cpython-312.pyc
+[1.677s] byte-compiling /home/bgr/bgr_ws/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server/trajectory.py to trajectory.cpython-312.pyc
+[1.678s] byte-compiling /home/bgr/bgr_ws/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server/__init__.py to __init__.cpython-312.pyc
+[1.678s] running install_data
+[1.678s] creating /home/bgr/bgr_ws/install/mogi_trajectory_server/share/ament_index
+[1.679s] creating /home/bgr/bgr_ws/install/mogi_trajectory_server/share/ament_index/resource_index
+[1.679s] creating /home/bgr/bgr_ws/install/mogi_trajectory_server/share/ament_index/resource_index/packages
+[1.679s] copying resource/mogi_trajectory_server -> /home/bgr/bgr_ws/install/mogi_trajectory_server/share/ament_index/resource_index/packages
+[1.679s] copying package.xml -> /home/bgr/bgr_ws/install/mogi_trajectory_server/share/mogi_trajectory_server
+[1.679s] running install_egg_info
+[1.701s] Copying ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info to /home/bgr/bgr_ws/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server-1.0.0-py3.12.egg-info
+[1.703s] running install_scripts
+[1.853s] Installing mogi_trajectory_server script to /home/bgr/bgr_ws/install/mogi_trajectory_server/lib/mogi_trajectory_server
+[1.853s] Installing mogi_trajectory_server_topic_based script to /home/bgr/bgr_ws/install/mogi_trajectory_server/lib/mogi_trajectory_server
+[1.853s] writing list of installed files to '/home/bgr/bgr_ws/build/mogi_trajectory_server/install.log'
+[1.930s] Invoked command in '/home/bgr/bgr_ws/src/mogi_trajectory_server-main' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bgr/bgr_ws/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bgr/bgr_ws/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mogi_trajectory_server build --build-base /home/bgr/bgr_ws/build/mogi_trajectory_server/build install --record /home/bgr/bgr_ws/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data

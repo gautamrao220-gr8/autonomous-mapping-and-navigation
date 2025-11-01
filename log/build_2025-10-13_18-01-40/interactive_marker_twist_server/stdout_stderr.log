@@ -1,0 +1,27 @@
+[100%] Built target interactive_marker_twist_server
+-- Install configuration: ""
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/lib/interactive_marker_twist_server/marker_server
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server//launch
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server//launch/multi_robot_marker.launch.py
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server//launch/interactive_markers.launch
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server//launch/interactive_markers.launch.xml
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server//launch/interactive_markers_launch.py
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server//config
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server//config/linear.yaml
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server//config/planar.yaml
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server//config/aerial.yaml
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/ament_index/resource_index/package_run_dependencies/interactive_marker_twist_server
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/ament_index/resource_index/parent_prefix_path/interactive_marker_twist_server
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/environment/ament_prefix_path.sh
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/environment/path.sh
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/environment/path.dsv
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/local_setup.bash
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/local_setup.sh
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/local_setup.zsh
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/local_setup.dsv
+-- Installing: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/package.dsv
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/ament_index/resource_index/packages/interactive_marker_twist_server
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/cmake/interactive_marker_twist_serverConfig.cmake
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/cmake/interactive_marker_twist_serverConfig-version.cmake
+-- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/package.xml

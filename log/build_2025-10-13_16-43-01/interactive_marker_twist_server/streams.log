@@ -1,0 +1,30 @@
+[0.158s] Invoking command in '/home/bgr/bgr_ws/build/interactive_marker_twist_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bgr/bgr_ws/install/mogi_trajectory_server:/home/bgr/bgr_ws/install/bme_ros2_navigation_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bgr/bgr_ws/build/interactive_marker_twist_server -- -j16 -l16
+[0.239s] [100%] Built target interactive_marker_twist_server
+[0.318s] Invoked command in '/home/bgr/bgr_ws/build/interactive_marker_twist_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bgr/bgr_ws/install/mogi_trajectory_server:/home/bgr/bgr_ws/install/bme_ros2_navigation_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bgr/bgr_ws/build/interactive_marker_twist_server -- -j16 -l16
+[0.318s] Invoking command in '/home/bgr/bgr_ws/build/interactive_marker_twist_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bgr/bgr_ws/install/mogi_trajectory_server:/home/bgr/bgr_ws/install/bme_ros2_navigation_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bgr/bgr_ws/build/interactive_marker_twist_server
+[0.327s] -- Install configuration: ""
+[0.328s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/lib/interactive_marker_twist_server/marker_server
+[0.328s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server//launch
+[0.328s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server//launch/interactive_markers.launch
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server//launch/interactive_markers.launch.xml
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server//launch/interactive_markers_launch.py
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server//config
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server//config/linear.yaml
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server//config/planar.yaml
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server//config/aerial.yaml
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/ament_index/resource_index/package_run_dependencies/interactive_marker_twist_server
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/ament_index/resource_index/parent_prefix_path/interactive_marker_twist_server
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/environment/ament_prefix_path.sh
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/environment/ament_prefix_path.dsv
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/environment/path.sh
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/environment/path.dsv
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/local_setup.bash
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/local_setup.sh
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/local_setup.zsh
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/local_setup.dsv
+[0.329s] -- Installing: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/package.dsv
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/ament_index/resource_index/packages/interactive_marker_twist_server
+[0.329s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/cmake/interactive_marker_twist_serverConfig.cmake
+[0.330s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/cmake/interactive_marker_twist_serverConfig-version.cmake
+[0.330s] -- Up-to-date: /home/bgr/bgr_ws/install/interactive_marker_twist_server/share/interactive_marker_twist_server/package.xml
+[0.333s] Invoked command in '/home/bgr/bgr_ws/build/interactive_marker_twist_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bgr/bgr_ws/install/mogi_trajectory_server:/home/bgr/bgr_ws/install/bme_ros2_navigation_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bgr/bgr_ws/build/interactive_marker_twist_server

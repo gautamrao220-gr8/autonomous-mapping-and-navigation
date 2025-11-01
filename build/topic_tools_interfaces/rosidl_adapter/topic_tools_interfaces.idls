@@ -1,0 +1,8 @@
+/home/bgr/bgr_ws/build/topic_tools_interfaces/rosidl_adapter/topic_tools_interfaces:srv/DemuxAdd.idl
+/home/bgr/bgr_ws/build/topic_tools_interfaces/rosidl_adapter/topic_tools_interfaces:srv/DemuxDelete.idl
+/home/bgr/bgr_ws/build/topic_tools_interfaces/rosidl_adapter/topic_tools_interfaces:srv/DemuxList.idl
+/home/bgr/bgr_ws/build/topic_tools_interfaces/rosidl_adapter/topic_tools_interfaces:srv/DemuxSelect.idl
+/home/bgr/bgr_ws/build/topic_tools_interfaces/rosidl_adapter/topic_tools_interfaces:srv/MuxAdd.idl
+/home/bgr/bgr_ws/build/topic_tools_interfaces/rosidl_adapter/topic_tools_interfaces:srv/MuxDelete.idl
+/home/bgr/bgr_ws/build/topic_tools_interfaces/rosidl_adapter/topic_tools_interfaces:srv/MuxList.idl
+/home/bgr/bgr_ws/build/topic_tools_interfaces/rosidl_adapter/topic_tools_interfaces:srv/MuxSelect.idl

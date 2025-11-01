@@ -1,0 +1,23 @@
+[0.806s] Invoking command in '/home/bgr/bgr_ws/src/bme_ros2_navigation_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bgr/bgr_ws/build/bme_ros2_navigation_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bgr/bgr_ws/install/bme_ros2_navigation_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bme_ros2_navigation_py build --build-base /home/bgr/bgr_ws/build/bme_ros2_navigation_py/build install --record /home/bgr/bgr_ws/build/bme_ros2_navigation_py/install.log --single-version-externally-managed install_data
+[0.950s] running egg_info
+[0.961s] writing ../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info/PKG-INFO
+[0.961s] writing dependency_links to ../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info/dependency_links.txt
+[0.961s] writing entry points to ../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info/entry_points.txt
+[0.961s] writing requirements to ../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info/requires.txt
+[0.961s] writing top-level names to ../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info/top_level.txt
+[0.980s] reading manifest file '../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info/SOURCES.txt'
+[0.981s] writing manifest file '../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info/SOURCES.txt'
+[0.981s] running build
+[0.981s] running build_py
+[0.981s] running install
+[0.985s] running install_lib
+[0.995s] running install_data
+[0.995s] running install_egg_info
+[1.005s] removing '/home/bgr/bgr_ws/install/bme_ros2_navigation_py/lib/python3.12/site-packages/bme_ros2_navigation_py-1.0.0-py3.12.egg-info' (and everything under it)
+[1.005s] Copying ../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info to /home/bgr/bgr_ws/install/bme_ros2_navigation_py/lib/python3.12/site-packages/bme_ros2_navigation_py-1.0.0-py3.12.egg-info
+[1.006s] running install_scripts
+[1.080s] Installing follow_waypoints script to /home/bgr/bgr_ws/install/bme_ros2_navigation_py/lib/bme_ros2_navigation_py
+[1.080s] Installing send_initialpose script to /home/bgr/bgr_ws/install/bme_ros2_navigation_py/lib/bme_ros2_navigation_py
+[1.080s] Installing slam_toolbox_load_map script to /home/bgr/bgr_ws/install/bme_ros2_navigation_py/lib/bme_ros2_navigation_py
+[1.081s] writing list of installed files to '/home/bgr/bgr_ws/build/bme_ros2_navigation_py/install.log'
+[1.105s] Invoked command in '/home/bgr/bgr_ws/src/bme_ros2_navigation_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bgr/bgr_ws/build/bme_ros2_navigation_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bgr/bgr_ws/install/bme_ros2_navigation_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bme_ros2_navigation_py build --build-base /home/bgr/bgr_ws/build/bme_ros2_navigation_py/build install --record /home/bgr/bgr_ws/build/bme_ros2_navigation_py/install.log --single-version-externally-managed install_data

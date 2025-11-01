@@ -1,0 +1,101 @@
+[  4%] Built target gtest_main
+[  9%] Built target gtest
+[ 15%] Built target delay_node
+[ 15%] Built target ament_cmake_python_copy_topic_tools_setup
+[ 15%] Built target ament_cmake_python_copy_topic_tools
+[ 22%] Built target drop_node
+[ 29%] Built target throttle_node
+[ 36%] Built target relay_node
+[ 43%] Built target mux_node
+[ 50%] Built target demux_node
+[ 54%] Built target relay
+[ 70%] Built target throttle
+[ 70%] Built target drop
+[ 70%] Built target test_drop
+[ 72%] Built target delay
+[ 77%] Built target test_throttle
+[ 86%] Built target mux
+[ 86%] Built target test_relay
+[ 95%] Built target demux
+[ 95%] Built target test_mux
+[100%] Built target test_demux
+running install_scripts
+running egg_info
+writing topic_tools.egg-info/PKG-INFO
+writing dependency_links to topic_tools.egg-info/dependency_links.txt
+writing entry points to topic_tools.egg-info/entry_points.txt
+writing top-level names to topic_tools.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running egg_info
+reading manifest file 'topic_tools.egg-info/SOURCES.txt'
+writing manifest file 'topic_tools.egg-info/SOURCES.txt'
+writing topic_tools.egg-info/PKG-INFO
+writing dependency_links to topic_tools.egg-info/dependency_links.txt
+writing entry points to topic_tools.egg-info/entry_points.txt
+writing top-level names to topic_tools.egg-info/top_level.txt
+[100%] Built target ament_cmake_python_build_topic_tools_egg
+reading manifest file 'topic_tools.egg-info/SOURCES.txt'
+writing manifest file 'topic_tools.egg-info/SOURCES.txt'
+Installing relay_field script to scripts
+Installing transform script to scripts
+[100%] Built target ament_cmake_python_build_topic_tools_scripts
+-- Install configuration: ""
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/librelay_node.so
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/libthrottle_node.so
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/libdrop_node.so
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/libmux_node.so
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/libdemux_node.so
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/libdelay_node.so
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/topic_tools/launch
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/topic_tools/launch/relay.launch
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/topic_tools/relay
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/topic_tools/throttle
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/topic_tools/drop
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/topic_tools/mux
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/topic_tools/demux
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/topic_tools/delay
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/topic_tools/environment/pythonpath.sh
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/topic_tools/environment/pythonpath.dsv
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/python3.12/site-packages/topic_tools-1.4.3-py3.12.egg-info
+-- Installing: /home/bgr/bgr_ws/install/topic_tools/lib/python3.12/site-packages/topic_tools-1.4.3-py3.12.egg-info/entry_points.txt
+-- Installing: /home/bgr/bgr_ws/install/topic_tools/lib/python3.12/site-packages/topic_tools-1.4.3-py3.12.egg-info/PKG-INFO
+-- Installing: /home/bgr/bgr_ws/install/topic_tools/lib/python3.12/site-packages/topic_tools-1.4.3-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/bgr/bgr_ws/install/topic_tools/lib/python3.12/site-packages/topic_tools-1.4.3-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/bgr/bgr_ws/install/topic_tools/lib/python3.12/site-packages/topic_tools-1.4.3-py3.12.egg-info/top_level.txt
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/topic_tools/
+-- Installing: /home/bgr/bgr_ws/install/topic_tools/lib/topic_tools//transform
+-- Installing: /home/bgr/bgr_ws/install/topic_tools/lib/topic_tools//relay_field
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/python3.12/site-packages/topic_tools
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/python3.12/site-packages/topic_tools/transform.py
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/python3.12/site-packages/topic_tools/setup.cfg
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/python3.12/site-packages/topic_tools/__init__.py
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/lib/python3.12/site-packages/topic_tools/relay_field.py
+Listing '/home/bgr/bgr_ws/install/topic_tools/lib/python3.12/site-packages/topic_tools'...
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/ament_index/resource_index/package_run_dependencies/topic_tools
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/ament_index/resource_index/parent_prefix_path/topic_tools
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/topic_tools/environment/ament_prefix_path.sh
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/topic_tools/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/topic_tools/environment/path.sh
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/topic_tools/environment/path.dsv
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/topic_tools/local_setup.bash
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/topic_tools/local_setup.sh
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/topic_tools/local_setup.zsh
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/topic_tools/local_setup.dsv
+-- Installing: /home/bgr/bgr_ws/install/topic_tools/share/topic_tools/package.dsv
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/ament_index/resource_index/packages/topic_tools
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/ament_index/resource_index/rclcpp_components/topic_tools
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/topic_tools/cmake/topic_toolsConfig.cmake
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/topic_tools/cmake/topic_toolsConfig-version.cmake
+-- Up-to-date: /home/bgr/bgr_ws/install/topic_tools/share/topic_tools/package.xml

@@ -1,0 +1,13 @@
+{
+  "package_name": "topic_tools_interfaces",
+  "non_idl_tuples": [
+    "/home/bgr/bgr_ws/src/topic_tools/topic_tools_interfaces:srv/DemuxAdd.srv",
+    "/home/bgr/bgr_ws/src/topic_tools/topic_tools_interfaces:srv/DemuxDelete.srv",
+    "/home/bgr/bgr_ws/src/topic_tools/topic_tools_interfaces:srv/DemuxList.srv",
+    "/home/bgr/bgr_ws/src/topic_tools/topic_tools_interfaces:srv/DemuxSelect.srv",
+    "/home/bgr/bgr_ws/src/topic_tools/topic_tools_interfaces:srv/MuxAdd.srv",
+    "/home/bgr/bgr_ws/src/topic_tools/topic_tools_interfaces:srv/MuxDelete.srv",
+    "/home/bgr/bgr_ws/src/topic_tools/topic_tools_interfaces:srv/MuxList.srv",
+    "/home/bgr/bgr_ws/src/topic_tools/topic_tools_interfaces:srv/MuxSelect.srv"
+  ]
+}

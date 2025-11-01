@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-30a25c32a9c7229772eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "topic_tools_interfaces__py",
+					"jsonFile" : "directory-topic_tools_interfaces__py-140f369ed9bfe1f20e71.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/bgr/bgr_ws/build/topic_tools_interfaces/topic_tools_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "topic_tools_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_topic_tools_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_topic_tools_interfaces_egg-65480c4973d317113548.json",
+					"name" : "ament_cmake_python_build_topic_tools_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_topic_tools_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_topic_tools_interfaces-8af427e7b30de47df2ee.json",
+					"name" : "ament_cmake_python_copy_topic_tools_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_tools_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_tools_interfaces-2bfcd94e471dade66f6e.json",
+					"name" : "topic_tools_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_tools_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_tools_interfaces__cpp-60c625463d341e14da19.json",
+					"name" : "topic_tools_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "topic_tools_interfaces__py::@4afe4fd173e224b8f0eb",
+					"jsonFile" : "target-topic_tools_interfaces__py-a2ebeff529d787b7bfd3.json",
+					"name" : "topic_tools_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_tools_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_tools_interfaces__rosidl_generator_c-1d6d5e8e8d7cfb420d8f.json",
+					"name" : "topic_tools_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_tools_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_tools_interfaces__rosidl_generator_py-611e4f4e404185588e9b.json",
+					"name" : "topic_tools_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_tools_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_tools_interfaces__rosidl_generator_type_description-536ef296a96a1422d808.json",
+					"name" : "topic_tools_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_tools_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_tools_interfaces__rosidl_typesupport_c-383332a2797f8d82a30b.json",
+					"name" : "topic_tools_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_tools_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_tools_interfaces__rosidl_typesupport_cpp-bd6447058838e37c3166.json",
+					"name" : "topic_tools_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_tools_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_tools_interfaces__rosidl_typesupport_fastrtps_c-c28cc868e6a30a2c4579.json",
+					"name" : "topic_tools_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_tools_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_tools_interfaces__rosidl_typesupport_fastrtps_cpp-7f8a09dfe6359b8680b5.json",
+					"name" : "topic_tools_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_tools_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_tools_interfaces__rosidl_typesupport_introspection_c-4df0d0e6311c22445f3c.json",
+					"name" : "topic_tools_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_tools_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_tools_interfaces__rosidl_typesupport_introspection_cpp-5b22a06a71f6c6702a60.json",
+					"name" : "topic_tools_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_tools_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_tools_interfaces_s__rosidl_typesupport_c-97ae8d7ecbe33320c6e3.json",
+					"name" : "topic_tools_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_tools_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_tools_interfaces_s__rosidl_typesupport_fastrtps_c-125f106d96d265965ba8.json",
+					"name" : "topic_tools_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_tools_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_tools_interfaces_s__rosidl_typesupport_introspection_c-88018f43ed8e14d25056.json",
+					"name" : "topic_tools_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_tools_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_tools_interfaces_uninstall-d383302cf075bae7c814.json",
+					"name" : "topic_tools_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ca04587d295151b2ce54.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bgr/bgr_ws/build/topic_tools_interfaces",
+		"source" : "/home/bgr/bgr_ws/src/topic_tools/topic_tools_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

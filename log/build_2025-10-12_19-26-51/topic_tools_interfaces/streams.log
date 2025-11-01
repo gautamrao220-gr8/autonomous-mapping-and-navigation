@@ -1,0 +1,474 @@
+[0.043s] Invoking command in '/home/bgr/bgr_ws/build/topic_tools_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bgr/bgr_ws/src/topic_tools/topic_tools_interfaces -DCMAKE_INSTALL_PREFIX=/home/bgr/bgr_ws/install/topic_tools_interfaces
+[0.331s] -- The C compiler identification is GNU 13.3.0
+[0.333s] -- The CXX compiler identification is GNU 13.3.0
+[0.365s] -- Detecting C compiler ABI info
+[0.515s] -- Detecting C compiler ABI info - done
+[0.527s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.527s] -- Detecting C compile features
+[0.528s] -- Detecting C compile features - done
+[0.543s] -- Detecting CXX compiler ABI info
+[0.700s] -- Detecting CXX compiler ABI info - done
+[0.713s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.713s] -- Detecting CXX compile features
+[0.714s] -- Detecting CXX compile features - done
+[0.729s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.954s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.158s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.176s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.301s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.400s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.410s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[2.186s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.526s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.956s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.961s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.068s] -- Found PythonExtra: /usr/bin/python3  
+[3.435s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.464s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.495s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.497s] -- Added test 'lint_cmake' to check CMake code style
+[3.498s] -- Added test 'xmllint' to check XML markup files
+[3.500s] -- Configuring done (3.4s)
+[3.533s] -- Generating done (0.0s)
+[3.540s] -- Build files have been written to: /home/bgr/bgr_ws/build/topic_tools_interfaces
+[3.549s] Invoked command in '/home/bgr/bgr_ws/build/topic_tools_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bgr/bgr_ws/src/topic_tools/topic_tools_interfaces -DCMAKE_INSTALL_PREFIX=/home/bgr/bgr_ws/install/topic_tools_interfaces
+[3.550s] Invoking command in '/home/bgr/bgr_ws/build/topic_tools_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bgr/bgr_ws/build/topic_tools_interfaces -- -j16 -l16
+[3.600s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.606s] [  1%] Built target ament_cmake_python_copy_topic_tools_interfaces
+[3.736s] running egg_info
+[3.737s] creating topic_tools_interfaces.egg-info
+[3.746s] writing topic_tools_interfaces.egg-info/PKG-INFO
+[3.746s] writing dependency_links to topic_tools_interfaces.egg-info/dependency_links.txt
+[3.746s] writing top-level names to topic_tools_interfaces.egg-info/top_level.txt
+[3.747s] writing manifest file 'topic_tools_interfaces.egg-info/SOURCES.txt'
+[3.757s] [  1%] Built target topic_tools_interfaces__rosidl_generator_type_description
+[3.768s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.776s] reading manifest file 'topic_tools_interfaces.egg-info/SOURCES.txt'
+[3.776s] writing manifest file 'topic_tools_interfaces.egg-info/SOURCES.txt'
+[3.779s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.800s] [  2%] Built target ament_cmake_python_build_topic_tools_interfaces_egg
+[4.238s] [  2%] Built target topic_tools_interfaces__cpp
+[4.339s] [  8%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/demux_delete__description.c.o[0m
+[4.339s] [  8%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/demux_list__type_support.c.o[0m
+[4.339s] [  8%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/demux_list__functions.c.o[0m
+[4.339s] [  8%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/demux_list__description.c.o[0m
+[4.340s] [  8%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/demux_delete__type_support.c.o[0m
+[4.340s] [  8%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/demux_select__description.c.o[0m
+[4.340s] [  9%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/demux_delete__functions.c.o[0m
+[4.340s] [ 10%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/mux_add__description.c.o[0m
+[4.340s] [ 11%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/mux_add__functions.c.o[0m
+[4.340s] [ 13%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/demux_add__functions.c.o[0m
+[4.340s] [ 15%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/demux_add__type_support.c.o[0m
+[4.340s] [ 15%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/mux_delete__description.c.o[0m
+[4.340s] [ 17%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/demux_select__type_support.c.o[0m
+[4.340s] [ 17%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/demux_add__description.c.o[0m
+[4.341s] [ 17%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/demux_select__functions.c.o[0m
+[4.341s] [ 18%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/mux_add__type_support.c.o[0m
+[4.383s] [ 21%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/mux_delete__functions.c.o[0m
+[4.383s] [ 21%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/mux_delete__type_support.c.o[0m
+[4.383s] [ 21%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/mux_list__description.c.o[0m
+[4.383s] [ 22%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/mux_list__functions.c.o[0m
+[4.389s] [ 25%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/mux_select__type_support.c.o[0m
+[4.389s] [ 25%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/mux_select__description.c.o[0m
+[4.389s] [ 25%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/mux_list__type_support.c.o[0m
+[4.389s] [ 25%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_tools_interfaces/srv/detail/mux_select__functions.c.o[0m
+[4.444s] [ 26%] [32m[1mLinking C shared library libtopic_tools_interfaces__rosidl_generator_c.so[0m
+[4.483s] [ 26%] Built target topic_tools_interfaces__rosidl_generator_c
+[4.492s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.492s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.492s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.492s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.492s] [ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.492s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.764s] [ 32%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/topic_tools_interfaces/srv/mux_delete__type_support.cpp.o[0m
+[4.764s] [ 34%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/topic_tools_interfaces/srv/demux_list__type_support.cpp.o[0m
+[4.764s] [ 34%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/topic_tools_interfaces/srv/demux_add__type_support.cpp.o[0m
+[4.764s] [ 36%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/topic_tools_interfaces/srv/mux_add__type_support.cpp.o[0m
+[4.765s] [ 36%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/topic_tools_interfaces/srv/demux_delete__type_support.cpp.o[0m
+[4.765s] [ 37%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/topic_tools_interfaces/srv/mux_list__type_support.cpp.o[0m
+[4.765s] [ 38%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/topic_tools_interfaces/srv/demux_select__type_support.cpp.o[0m
+[4.765s] [ 39%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/topic_tools_interfaces/srv/mux_select__type_support.cpp.o[0m
+[4.780s] [ 42%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/topic_tools_interfaces/srv/demux_add__type_support.cpp.o[0m
+[4.781s] [ 42%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/topic_tools_interfaces/srv/demux_delete__type_support.cpp.o[0m
+[4.785s] [ 42%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/topic_tools_interfaces/srv/demux_list__type_support.cpp.o[0m
+[4.786s] [ 42%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/topic_tools_interfaces/srv/demux_select__type_support.cpp.o[0m
+[4.818s] [ 46%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/topic_tools_interfaces/srv/mux_add__type_support.cpp.o[0m
+[4.818s] [ 46%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/topic_tools_interfaces/srv/mux_select__type_support.cpp.o[0m
+[4.818s] [ 46%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/topic_tools_interfaces/srv/mux_delete__type_support.cpp.o[0m
+[4.818s] [ 46%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/topic_tools_interfaces/srv/mux_list__type_support.cpp.o[0m
+[4.828s] [ 47%] [32m[1mLinking CXX shared library libtopic_tools_interfaces__rosidl_typesupport_c.so[0m
+[4.887s] [ 47%] Built target topic_tools_interfaces__rosidl_typesupport_c
+[4.943s] [ 48%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/topic_tools_interfaces/srv/detail/demux_add__type_support.cpp.o[0m
+[4.944s] [ 49%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/topic_tools_interfaces/srv/detail/demux_delete__type_support.cpp.o[0m
+[4.948s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/topic_tools_interfaces/srv/detail/demux_list__type_support.cpp.o[0m
+[4.953s] [ 51%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/topic_tools_interfaces/srv/detail/demux_select__type_support.cpp.o[0m
+[4.968s] [ 52%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/topic_tools_interfaces/srv/detail/mux_add__type_support.cpp.o[0m
+[4.981s] [ 53%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/topic_tools_interfaces/srv/detail/demux_add__type_support.c.o[0m
+[5.091s] [ 54%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/topic_tools_interfaces/srv/detail/demux_delete__type_support.c.o[0m
+[5.150s] [ 55%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/topic_tools_interfaces/srv/detail/demux_list__type_support.c.o[0m
+[5.189s] [ 56%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/topic_tools_interfaces/srv/detail/mux_delete__type_support.cpp.o[0m
+[5.208s] [ 57%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/topic_tools_interfaces/srv/detail/demux_select__type_support.c.o[0m
+[5.212s] [ 58%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/topic_tools_interfaces/srv/detail/mux_add__type_support.c.o[0m
+[5.223s] [ 59%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/topic_tools_interfaces/srv/detail/mux_delete__type_support.c.o[0m
+[5.225s] [ 60%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/topic_tools_interfaces/srv/detail/mux_list__type_support.c.o[0m
+[5.226s] [ 61%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/topic_tools_interfaces/srv/detail/mux_list__type_support.cpp.o[0m
+[5.234s] [ 62%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/topic_tools_interfaces/srv/detail/mux_select__type_support.cpp.o[0m
+[5.234s] [ 63%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/topic_tools_interfaces/srv/detail/mux_select__type_support.c.o[0m
+[5.269s] [ 64%] [32m[1mLinking CXX shared library libtopic_tools_interfaces__rosidl_typesupport_cpp.so[0m
+[5.313s] [ 65%] [32m[1mLinking C shared library libtopic_tools_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.363s] [ 66%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/topic_tools_interfaces/srv/detail/dds_fastrtps/demux_add__type_support.cpp.o[0m
+[5.365s] [ 67%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/topic_tools_interfaces/srv/detail/dds_fastrtps/demux_delete__type_support.cpp.o[0m
+[5.365s] [ 69%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/topic_tools_interfaces/srv/detail/dds_fastrtps/mux_add__type_support.cpp.o[0m
+[5.365s] [ 69%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/topic_tools_interfaces/srv/detail/dds_fastrtps/demux_select__type_support.cpp.o[0m
+[5.368s] [ 69%] Built target topic_tools_interfaces__rosidl_typesupport_introspection_c
+[5.371s] [ 70%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/topic_tools_interfaces/srv/detail/demux_add__type_support_c.cpp.o[0m
+[5.372s] [ 71%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/topic_tools_interfaces/srv/detail/dds_fastrtps/demux_list__type_support.cpp.o[0m
+[5.381s] [ 72%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/topic_tools_interfaces/srv/detail/demux_delete__type_support_c.cpp.o[0m
+[5.390s] [ 73%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/topic_tools_interfaces/srv/detail/demux_list__type_support_c.cpp.o[0m
+[5.397s] [ 73%] Built target topic_tools_interfaces__rosidl_typesupport_cpp
+[5.409s] [ 75%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/topic_tools_interfaces/srv/detail/dds_fastrtps/mux_delete__type_support.cpp.o[0m
+[5.409s] [ 75%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/topic_tools_interfaces/srv/detail/dds_fastrtps/mux_list__type_support.cpp.o[0m
+[5.409s] [ 76%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/topic_tools_interfaces/srv/detail/demux_select__type_support_c.cpp.o[0m
+[5.433s] [ 77%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/topic_tools_interfaces/srv/detail/dds_fastrtps/mux_select__type_support.cpp.o[0m
+[5.618s] [ 78%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/topic_tools_interfaces/srv/detail/mux_add__type_support_c.cpp.o[0m
+[5.693s] [ 79%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/topic_tools_interfaces/srv/detail/mux_delete__type_support_c.cpp.o[0m
+[5.712s] [ 80%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/topic_tools_interfaces/srv/detail/mux_list__type_support_c.cpp.o[0m
+[5.850s] [ 81%] [32m[1mLinking CXX shared library libtopic_tools_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.933s] [ 82%] [32mBuilding CXX object CMakeFiles/topic_tools_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/topic_tools_interfaces/srv/detail/mux_select__type_support_c.cpp.o[0m
+[6.038s] [ 82%] Built target topic_tools_interfaces__rosidl_typesupport_introspection_cpp
+[6.156s] [ 83%] [32m[1mLinking CXX shared library libtopic_tools_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.237s] [ 83%] Built target topic_tools_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.327s] [ 84%] [32m[1mLinking CXX shared library libtopic_tools_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.385s] [ 84%] Built target topic_tools_interfaces__rosidl_typesupport_fastrtps_c
+[6.407s] [ 84%] Built target topic_tools_interfaces
+[6.431s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.179s] [ 85%] Built target topic_tools_interfaces__py
+[7.200s] [ 90%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_py.dir/rosidl_generator_py/topic_tools_interfaces/srv/_demux_select_s.c.o[0m
+[7.200s] [ 90%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_py.dir/rosidl_generator_py/topic_tools_interfaces/srv/_demux_list_s.c.o[0m
+[7.200s] [ 90%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_py.dir/rosidl_generator_py/topic_tools_interfaces/srv/_demux_delete_s.c.o[0m
+[7.200s] [ 90%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_py.dir/rosidl_generator_py/topic_tools_interfaces/srv/_mux_delete_s.c.o[0m
+[7.200s] [ 90%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_py.dir/rosidl_generator_py/topic_tools_interfaces/srv/_mux_list_s.c.o[0m
+[7.200s] [ 91%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_py.dir/rosidl_generator_py/topic_tools_interfaces/srv/_mux_select_s.c.o[0m
+[7.200s] [ 92%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_py.dir/rosidl_generator_py/topic_tools_interfaces/srv/_demux_add_s.c.o[0m
+[7.201s] [ 93%] [32mBuilding C object CMakeFiles/topic_tools_interfaces__rosidl_generator_py.dir/rosidl_generator_py/topic_tools_interfaces/srv/_mux_add_s.c.o[0m
+[7.339s] [ 94%] [32m[1mLinking C shared library libtopic_tools_interfaces__rosidl_generator_py.so[0m
+[7.377s] [ 94%] Built target topic_tools_interfaces__rosidl_generator_py
+[7.396s] [ 97%] [32mBuilding C object CMakeFiles/topic_tools_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/topic_tools_interfaces/_topic_tools_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.396s] [ 97%] [32mBuilding C object CMakeFiles/topic_tools_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/topic_tools_interfaces/_topic_tools_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.396s] [ 97%] [32mBuilding C object CMakeFiles/topic_tools_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/topic_tools_interfaces/_topic_tools_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.504s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/topic_tools_interfaces/topic_tools_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[7.505s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/topic_tools_interfaces/topic_tools_interfaces_s__rosidl_typesupport_c.so[0m
+[7.509s] [100%] [32m[1mLinking C shared module rosidl_generator_py/topic_tools_interfaces/topic_tools_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.532s] [100%] Built target topic_tools_interfaces_s__rosidl_typesupport_c
+[7.532s] [100%] Built target topic_tools_interfaces_s__rosidl_typesupport_introspection_c
+[7.537s] [100%] Built target topic_tools_interfaces_s__rosidl_typesupport_fastrtps_c
+[7.551s] Invoked command in '/home/bgr/bgr_ws/build/topic_tools_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bgr/bgr_ws/build/topic_tools_interfaces -- -j16 -l16
+[7.552s] Invoking command in '/home/bgr/bgr_ws/build/topic_tools_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bgr/bgr_ws/build/topic_tools_interfaces
+[7.559s] -- Install configuration: ""
+[7.560s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/ament_index/resource_index/rosidl_interfaces/topic_tools_interfaces
+[7.560s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/DemuxAdd.json
+[7.560s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/DemuxDelete.json
+[7.560s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/DemuxList.json
+[7.560s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/DemuxSelect.json
+[7.560s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/MuxAdd.json
+[7.560s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/MuxDelete.json
+[7.561s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/MuxList.json
+[7.561s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/MuxSelect.json
+[7.561s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces
+[7.561s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/msg
+[7.561s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.561s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv
+[7.561s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/demux_select.h
+[7.561s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/demux_delete.h
+[7.561s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/mux_select.h
+[7.561s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/demux_list.h
+[7.561s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/mux_add.h
+[7.561s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/mux_list.h
+[7.561s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail
+[7.561s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_delete__functions.h
+[7.561s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_select__functions.h
+[7.561s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_add__type_support.c
+[7.561s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_list__type_support.h
+[7.562s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_add__description.c
+[7.562s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_list__struct.h
+[7.562s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_delete__description.c
+[7.562s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_delete__type_support.c
+[7.562s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_add__struct.h
+[7.562s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_delete__struct.h
+[7.562s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_select__functions.h
+[7.562s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_delete__description.c
+[7.562s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_delete__functions.h
+[7.562s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_add__functions.c
+[7.562s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_select__type_support.c
+[7.562s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_select__functions.c
+[7.562s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_delete__type_support.c
+[7.563s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_list__struct.h
+[7.563s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_delete__type_support.h
+[7.563s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_select__description.c
+[7.563s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_list__type_support.c
+[7.563s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_select__functions.c
+[7.563s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_list__type_support.c
+[7.563s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_list__functions.h
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_add__functions.c
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_delete__type_support.h
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_list__functions.c
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_list__description.c
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_select__struct.h
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_list__type_support.h
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_add__type_support.h
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_list__description.c
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_select__description.c
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_list__functions.h
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_delete__struct.h
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_add__struct.h
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_add__type_support.c
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_add__type_support.h
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_select__type_support.h
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_add__description.c
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_select__type_support.c
+[7.564s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_select__struct.h
+[7.565s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_select__type_support.h
+[7.565s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_delete__functions.c
+[7.565s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_list__functions.c
+[7.565s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_delete__functions.c
+[7.565s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_add__functions.h
+[7.565s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_add__functions.h
+[7.565s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/demux_add.h
+[7.565s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/mux_delete.h
+[7.565s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/environment/library_path.sh
+[7.565s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/environment/library_path.dsv
+[7.566s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/libtopic_tools_interfaces__rosidl_generator_c.so
+[7.566s] -- Set non-toolchain portion of runtime path of "/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/libtopic_tools_interfaces__rosidl_generator_c.so" to ""
+[7.566s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces
+[7.566s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/msg
+[7.566s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.566s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv
+[7.566s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail
+[7.566s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_add__rosidl_typesupport_fastrtps_c.h
+[7.566s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_delete__rosidl_typesupport_fastrtps_c.h
+[7.566s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_add__rosidl_typesupport_fastrtps_c.h
+[7.566s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_list__rosidl_typesupport_fastrtps_c.h
+[7.567s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_list__rosidl_typesupport_fastrtps_c.h
+[7.567s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_select__rosidl_typesupport_fastrtps_c.h
+[7.567s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_select__rosidl_typesupport_fastrtps_c.h
+[7.567s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_delete__rosidl_typesupport_fastrtps_c.h
+[7.567s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/libtopic_tools_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.567s] -- Set non-toolchain portion of runtime path of "/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/libtopic_tools_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.567s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces
+[7.567s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/msg
+[7.567s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.567s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv
+[7.567s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail
+[7.567s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_add__type_support.c
+[7.568s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_delete__type_support.c
+[7.568s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_list__rosidl_typesupport_introspection_c.h
+[7.568s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_list__rosidl_typesupport_introspection_c.h
+[7.568s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_select__type_support.c
+[7.568s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_delete__type_support.c
+[7.568s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_select__rosidl_typesupport_introspection_c.h
+[7.568s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_delete__rosidl_typesupport_introspection_c.h
+[7.568s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_list__type_support.c
+[7.568s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_list__type_support.c
+[7.568s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_add__type_support.c
+[7.568s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_add__rosidl_typesupport_introspection_c.h
+[7.569s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_select__rosidl_typesupport_introspection_c.h
+[7.569s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_select__type_support.c
+[7.569s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_add__rosidl_typesupport_introspection_c.h
+[7.569s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_delete__rosidl_typesupport_introspection_c.h
+[7.569s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/libtopic_tools_interfaces__rosidl_typesupport_introspection_c.so
+[7.569s] -- Set non-toolchain portion of runtime path of "/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/libtopic_tools_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.569s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/libtopic_tools_interfaces__rosidl_typesupport_c.so
+[7.570s] -- Set non-toolchain portion of runtime path of "/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/libtopic_tools_interfaces__rosidl_typesupport_c.so" to ""
+[7.570s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces
+[7.570s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/msg
+[7.570s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.570s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv
+[7.570s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/mux_list.hpp
+[7.570s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/demux_list.hpp
+[7.570s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/mux_delete.hpp
+[7.570s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/mux_select.hpp
+[7.570s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail
+[7.570s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_delete__struct.hpp
+[7.570s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_delete__struct.hpp
+[7.570s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_list__struct.hpp
+[7.570s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_delete__builder.hpp
+[7.570s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_list__builder.hpp
+[7.570s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_delete__traits.hpp
+[7.571s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_add__builder.hpp
+[7.571s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_add__struct.hpp
+[7.571s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_select__struct.hpp
+[7.571s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_add__struct.hpp
+[7.571s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_select__builder.hpp
+[7.571s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_list__traits.hpp
+[7.571s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_add__type_support.hpp
+[7.571s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_add__traits.hpp
+[7.571s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_select__type_support.hpp
+[7.571s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_select__traits.hpp
+[7.571s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_add__builder.hpp
+[7.571s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_add__traits.hpp
+[7.572s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_list__traits.hpp
+[7.572s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_delete__traits.hpp
+[7.572s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_select__builder.hpp
+[7.572s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_select__type_support.hpp
+[7.572s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_delete__builder.hpp
+[7.572s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_list__type_support.hpp
+[7.572s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_list__builder.hpp
+[7.572s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_add__type_support.hpp
+[7.572s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_list__struct.hpp
+[7.572s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_delete__type_support.hpp
+[7.572s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_select__struct.hpp
+[7.572s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_delete__type_support.hpp
+[7.573s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_select__traits.hpp
+[7.573s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_list__type_support.hpp
+[7.573s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/mux_add.hpp
+[7.573s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/demux_select.hpp
+[7.573s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/demux_add.hpp
+[7.573s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/demux_delete.hpp
+[7.573s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces
+[7.573s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/msg
+[7.573s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.573s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv
+[7.573s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail
+[7.573s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_delete__rosidl_typesupport_fastrtps_cpp.hpp
+[7.573s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_add__rosidl_typesupport_fastrtps_cpp.hpp
+[7.573s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_delete__rosidl_typesupport_fastrtps_cpp.hpp
+[7.574s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_list__rosidl_typesupport_fastrtps_cpp.hpp
+[7.574s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_select__rosidl_typesupport_fastrtps_cpp.hpp
+[7.574s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_select__rosidl_typesupport_fastrtps_cpp.hpp
+[7.574s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_list__rosidl_typesupport_fastrtps_cpp.hpp
+[7.574s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/dds_fastrtps
+[7.574s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_add__rosidl_typesupport_fastrtps_cpp.hpp
+[7.574s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/libtopic_tools_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.575s] -- Set non-toolchain portion of runtime path of "/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/libtopic_tools_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.575s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces
+[7.575s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv
+[7.575s] -- Up-to-date: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail
+[7.575s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_add__type_support.cpp
+[7.575s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_list__rosidl_typesupport_introspection_cpp.hpp
+[7.575s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_delete__type_support.cpp
+[7.575s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_select__type_support.cpp
+[7.575s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_list__type_support.cpp
+[7.575s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_list__type_support.cpp
+[7.576s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_delete__rosidl_typesupport_introspection_cpp.hpp
+[7.576s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_add__type_support.cpp
+[7.576s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_delete__type_support.cpp
+[7.576s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_add__rosidl_typesupport_introspection_cpp.hpp
+[7.576s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_select__type_support.cpp
+[7.576s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_select__rosidl_typesupport_introspection_cpp.hpp
+[7.576s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/demux_select__rosidl_typesupport_introspection_cpp.hpp
+[7.576s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_add__rosidl_typesupport_introspection_cpp.hpp
+[7.576s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_list__rosidl_typesupport_introspection_cpp.hpp
+[7.576s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/include/topic_tools_interfaces/topic_tools_interfaces/srv/detail/mux_delete__rosidl_typesupport_introspection_cpp.hpp
+[7.576s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/libtopic_tools_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.577s] -- Set non-toolchain portion of runtime path of "/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/libtopic_tools_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.577s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/libtopic_tools_interfaces__rosidl_typesupport_cpp.so
+[7.578s] -- Set non-toolchain portion of runtime path of "/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/libtopic_tools_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.578s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/environment/pythonpath.sh
+[7.578s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/environment/pythonpath.dsv
+[7.578s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces-1.4.3-py3.12.egg-info
+[7.578s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces-1.4.3-py3.12.egg-info/PKG-INFO
+[7.578s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces-1.4.3-py3.12.egg-info/dependency_links.txt
+[7.578s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces-1.4.3-py3.12.egg-info/SOURCES.txt
+[7.578s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces-1.4.3-py3.12.egg-info/top_level.txt
+[7.578s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces
+[7.578s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/_topic_tools_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.579s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/_topic_tools_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.579s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/_topic_tools_interfaces_s.ep.rosidl_typesupport_c.c
+[7.579s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/topic_tools_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.579s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv
+[7.579s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_demux_select.py
+[7.579s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_demux_add_s.c
+[7.579s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_demux_add.py
+[7.579s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_mux_delete_s.c
+[7.579s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_mux_select.py
+[7.579s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_mux_add.py
+[7.580s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_demux_list.py
+[7.580s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_demux_delete_s.c
+[7.580s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_mux_select_s.c
+[7.580s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_demux_select_s.c
+[7.580s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_mux_list_s.c
+[7.580s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_demux_delete.py
+[7.580s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_mux_delete.py
+[7.580s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_mux_add_s.c
+[7.580s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_demux_list_s.c
+[7.580s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_mux_list.py
+[7.580s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/__init__.py
+[7.580s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/topic_tools_interfaces_s__rosidl_typesupport_c.so
+[7.581s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/topic_tools_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.581s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/__init__.py
+[7.620s] Listing '/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces'...
+[7.620s] Compiling '/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/__init__.py'...
+[7.620s] Listing '/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv'...
+[7.620s] Compiling '/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/__init__.py'...
+[7.621s] Compiling '/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_demux_add.py'...
+[7.621s] Compiling '/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_demux_delete.py'...
+[7.621s] Compiling '/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_demux_list.py'...
+[7.621s] Compiling '/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_demux_select.py'...
+[7.621s] Compiling '/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_mux_add.py'...
+[7.621s] Compiling '/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_mux_delete.py'...
+[7.621s] Compiling '/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_mux_list.py'...
+[7.621s] Compiling '/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/srv/_mux_select.py'...
+[7.625s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/topic_tools_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.625s] -- Set non-toolchain portion of runtime path of "/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/topic_tools_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[7.625s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/topic_tools_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.626s] -- Set non-toolchain portion of runtime path of "/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/topic_tools_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[7.626s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/topic_tools_interfaces_s__rosidl_typesupport_c.so
+[7.626s] -- Set non-toolchain portion of runtime path of "/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/python3.12/site-packages/topic_tools_interfaces/topic_tools_interfaces_s__rosidl_typesupport_c.so" to ""
+[7.626s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/lib/libtopic_tools_interfaces__rosidl_generator_py.so
+[7.626s] -- Set non-toolchain portion of runtime path of "/home/bgr/bgr_ws/install/topic_tools_interfaces/lib/libtopic_tools_interfaces__rosidl_generator_py.so" to ""
+[7.626s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/DemuxAdd.idl
+[7.626s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/DemuxDelete.idl
+[7.627s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/DemuxList.idl
+[7.627s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/DemuxSelect.idl
+[7.627s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/MuxAdd.idl
+[7.627s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/MuxDelete.idl
+[7.627s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/MuxList.idl
+[7.627s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/MuxSelect.idl
+[7.627s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/DemuxAdd.srv
+[7.627s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/DemuxDelete.srv
+[7.627s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/DemuxList.srv
+[7.627s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/DemuxSelect.srv
+[7.627s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/MuxAdd.srv
+[7.628s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/MuxDelete.srv
+[7.628s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/MuxList.srv
+[7.628s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/srv/MuxSelect.srv
+[7.628s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/ament_index/resource_index/package_run_dependencies/topic_tools_interfaces
+[7.628s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/ament_index/resource_index/parent_prefix_path/topic_tools_interfaces
+[7.628s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/environment/ament_prefix_path.sh
+[7.628s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/environment/ament_prefix_path.dsv
+[7.628s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/environment/path.sh
+[7.628s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/environment/path.dsv
+[7.628s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/local_setup.bash
+[7.629s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/local_setup.sh
+[7.629s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/local_setup.zsh
+[7.629s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/local_setup.dsv
+[7.629s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/package.dsv
+[7.629s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/ament_index/resource_index/packages/topic_tools_interfaces
+[7.629s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/export_topic_tools_interfaces__rosidl_generator_cExport.cmake
+[7.629s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/export_topic_tools_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.629s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/export_topic_tools_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.629s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/export_topic_tools_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.629s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/topic_tools_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.630s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/topic_tools_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.630s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/topic_tools_interfaces__rosidl_typesupport_cExport.cmake
+[7.630s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/topic_tools_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.630s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/export_topic_tools_interfaces__rosidl_generator_cppExport.cmake
+[7.630s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/export_topic_tools_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.630s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/export_topic_tools_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.630s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/topic_tools_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.630s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/topic_tools_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.630s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/topic_tools_interfaces__rosidl_typesupport_cppExport.cmake
+[7.630s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/topic_tools_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.630s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/export_topic_tools_interfaces__rosidl_generator_pyExport.cmake
+[7.631s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/export_topic_tools_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.631s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.631s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.631s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.631s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.631s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.631s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.631s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.631s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/topic_tools_interfacesConfig.cmake
+[7.631s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/cmake/topic_tools_interfacesConfig-version.cmake
+[7.632s] -- Installing: /home/bgr/bgr_ws/install/topic_tools_interfaces/share/topic_tools_interfaces/package.xml
+[7.634s] Invoked command in '/home/bgr/bgr_ws/build/topic_tools_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bgr/bgr_ws/build/topic_tools_interfaces

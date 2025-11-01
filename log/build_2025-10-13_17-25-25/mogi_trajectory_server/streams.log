@@ -1,0 +1,23 @@
+[0.769s] Invoking command in '/home/bgr/bgr_ws/src/mogi_trajectory_server-main': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bgr/bgr_ws/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bgr/bgr_ws/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mogi_trajectory_server build --build-base /home/bgr/bgr_ws/build/mogi_trajectory_server/build install --record /home/bgr/bgr_ws/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data
+[0.943s] running egg_info
+[0.954s] writing ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/PKG-INFO
+[0.955s] writing dependency_links to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/dependency_links.txt
+[0.955s] writing entry points to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/entry_points.txt
+[0.955s] writing requirements to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/requires.txt
+[0.955s] writing top-level names to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/top_level.txt
+[0.979s] reading manifest file '../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/SOURCES.txt'
+[0.979s] adding license file 'LICENSE'
+[0.980s] writing manifest file '../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/SOURCES.txt'
+[0.980s] running build
+[0.980s] running build_py
+[0.980s] running install
+[0.985s] running install_lib
+[0.999s] running install_data
+[0.999s] running install_egg_info
+[1.016s] removing '/home/bgr/bgr_ws/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server-1.0.0-py3.12.egg-info' (and everything under it)
+[1.017s] Copying ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info to /home/bgr/bgr_ws/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server-1.0.0-py3.12.egg-info
+[1.017s] running install_scripts
+[1.108s] Installing mogi_trajectory_server script to /home/bgr/bgr_ws/install/mogi_trajectory_server/lib/mogi_trajectory_server
+[1.108s] Installing mogi_trajectory_server_topic_based script to /home/bgr/bgr_ws/install/mogi_trajectory_server/lib/mogi_trajectory_server
+[1.108s] writing list of installed files to '/home/bgr/bgr_ws/build/mogi_trajectory_server/install.log'
+[1.138s] Invoked command in '/home/bgr/bgr_ws/src/mogi_trajectory_server-main' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bgr/bgr_ws/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bgr/bgr_ws/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mogi_trajectory_server build --build-base /home/bgr/bgr_ws/build/mogi_trajectory_server/build install --record /home/bgr/bgr_ws/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data
